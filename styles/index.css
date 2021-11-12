@@ -1,8 +1,34 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&family=Roboto:wght@300&display=swap');
 
 body {
     background-size: cover; 
     background-image: url("/img/circlebackground1.svg");
     background-color: #262626;
     background-repeat: no-repeat;
-    overflow-y: hidden;
+
+}
+article{
+    display:flex;
+    flex-direction:row;
+}
+article .left{
+    display:flex;
+    flex-direction:column;
+    width:61%;
+}
+article .left h1{
+    font-size: 65px;
+    font-family:nunito;
+    color:white;
+    margin-left: 20px;
+}
+article .left a{
+    text-decoration:none;
+    background-color:#505690;
+    color: white;
+    font-family:nunito;
+    font-size: 18px;
+    margin-left:20px;
+    padding: 15px;
+    width:fit-content;
 }

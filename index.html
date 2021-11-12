@@ -3,11 +3,12 @@
 
         <link rel="stylesheet" type="text/css" href="styles/styles.css">
         <link rel="stylesheet" type="text/css" href="styles/index.css">
-
+        <link rel="stylesheet" href="/Flickity/flickity.css" media="screen">
 
     
     </head>
     <body>
+        <script src="/Flickity/flickity.pkgd.js"></script>
         <div class = "zwrapper">
             <header>
                 <nav>
@@ -29,8 +30,17 @@
                     <h1>Custom Web Design and Development</h1>
                     <a>GET YOUR OWN SITE!</a>
                 </section>
-
             </article>
+            <section style="margin-top: 5%;">
+                <div class="gallery js-flickity"
+                    data-flickity-options='{ "wrapAround": true }' style="padding-left: 5%; padding-right: 5%;">
+                    <div class="gallery-cell" id="g1"></div>
+                    <div class="gallery-cell" id="g2"></div>
+                    <div class="gallery-cell" id="g3"></div>
+                    <div class="gallery-cell" id="g4"></div>
+                    <div class="gallery-cell" id="g5"></div>
+                </div>
+            </section>
             <footer>
             </footer>
         </div>

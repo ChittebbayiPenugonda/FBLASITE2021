@@ -1,0 +1,14 @@
+body{
+    margin:0;
+    background-color:black;
+}
+header{
+    display:flex;
+    flex-direction:row;
+    width:100%;
+}
+nav{
+    display:flex;
+    flex-direction:row;
+
+}

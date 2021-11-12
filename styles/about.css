@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Flat&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300;400&family=Roboto:wght@300&display=swap');
+article{
+    display:flex;
+    flex-direction:column;
+    margin-top:20px;
+}
+
+article .top h1{
+    color:white;
+    font-family:nunito;
+    font-size: 30px;
+    margin: 0 auto;
+    width:100%;
+    text-align:center;
+}
+.bottom{
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+}
+.bottom .description{
+    width:40%;
+}
+.bottom .description h4{
+    font-family:nunito;
+    color:rgba(255, 255, 255, 0.842);
+    line-height: 40px;
+}
+.bottom .peoplesection{
+    display:flex;
+    flex-direction:column;
+}
+.bottom .person{
+    display:flex;
+    flex-direction:row;
+    margin: 20px;
+}
+.bottom .person img{
+    border-radius:50%;
+    width: 170px;
+    z-index:1;
+}
+.bottom .person > div{
+    display: flex;
+    flex-direction:column;
+}
+.bottom h3{
+    color:white;
+    font-family: nunito;
+    background-color:#414584;
+    width:200px;
+    font-size: 18px;
+    padding: 15px;
+    margin-top:0;
+    padding-left:85px;
+    position:relative;
+    left:-85px;
+    z-index: 0;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+.bottom p{
+    color:white;
+    margin-left: 16px;
+    font-family:nunito;
+    text-decoration:underline;
+}

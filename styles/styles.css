@@ -22,13 +22,13 @@ nav .left{
     flex-direction:row;
 }
 nav .left img{
-    width:10vh;
-    height:10vh;
+    width:70px;
+    height:70px;
     margin-left:20px;
 }
 nav .left h4{
     color:white;
-    font-size: 4vh;
+    font-size: 25px;
     font-family:Nova Flat;
     margin: 9% 10px;
 

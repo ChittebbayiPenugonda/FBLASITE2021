@@ -21,6 +21,14 @@ article .left h1{
     font-family:nunito;
     color:white;
     margin-left: 20px;
+    margin-bottom:0;
+}
+article .left h4{
+    font-size: 20px;
+    font-family:nunito;
+    color:rgba(255, 255, 255, 0.575);
+    margin-left: 20px;
+    margin-bottom:50px;
 }
 article .left a{
     text-decoration:none;
